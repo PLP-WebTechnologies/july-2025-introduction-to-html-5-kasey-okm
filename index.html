@@ -34,8 +34,9 @@
     I have a strong foundation in computer science and web development, with coursework and hands-on experience in HTML, CSS, and JavaScript.
   </p>
   <p>
-    <a href="Kasey-CV.pdf" download="Kasey-CV.pdf">Download
-
+    <a href="Kasey-CV.pdf" download="Kasey-CV.pdf">Download My CV</a>
+  </p>
+</section>
     <section id="interests" aria-labelledby="interests-heading">
       <h2 id="interests-heading">Interest</h2>
       <p>
@@ -52,13 +53,30 @@
       </ul>
     </section>
 
-    <section id="contact" aria-labelledby="contact-heading">
-      <h2 id="contact-heading">Contact Me</h2>
-      <address>
-        Email: <a href="mailto:kasey@example.com">kasey@example.com</a><br>
-        Phone: <a href="tel:+1234567890">+1 (234) 567-890</a>
-      </address>
-    </section>
+   <section id="contact" aria-labelledby="contact-heading">
+  <h2 id="contact-heading">Contact Me</h2>
+  <address>
+    Email: <a href="mailto:kasey@example.com">kasey@example.com</a><br>
+    Phone: <a href="tel:+1234567890">+1 (234) 567-890</a>
+  </address>
+  <form aria-label="Contact form">
+    <p>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required>
+    </p>
+    <p>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required>
+    </p>
+    <p>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea>
+    </p>
+    <p>
+      <button type="submit">Send Message</button>
+    </p>
+  </form>
+</section>
   </main>
 
   <footer>
